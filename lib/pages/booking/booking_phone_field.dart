@@ -14,25 +14,7 @@ class BookingPhoneField extends StatefulWidget {
 class _BookingPhoneFieldState extends State<BookingPhoneField> {
   @override
   Widget build(BuildContext context) {
-    String hint = "+7 (###) ###-##-##";
-    String formText = "";
-
-    TextEditingController getContr() {
-      TextEditingController _controller = TextEditingController();
-      _controller.value = TextEditingValue(
-        text: formText,
-        selection: TextSelection.fromPosition(
-          TextPosition(offset: formText.length),
-        ),
-      );
-      return _controller;
-    }
-
     return TextFormField(
-      onChanged: (value) {
-        hint = value;
-      },
-      controller: getContr(),
       inputFormatters: [
         MaskTextInputFormatter(
           mask: "+7 (F##) ###-##-##",

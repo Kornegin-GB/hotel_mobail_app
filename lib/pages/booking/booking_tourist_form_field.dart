@@ -80,6 +80,7 @@ class BookingTouristFormField extends StatelessWidget {
             borderRadius: BorderRadius.circular(10),
           ),
           child: TextFormField(
+            keyboardType: TextInputType.number,
             style: const TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w400,
@@ -173,6 +174,7 @@ class BookingTouristFormField extends StatelessWidget {
             borderRadius: BorderRadius.circular(10),
           ),
           child: TextFormField(
+            keyboardType: TextInputType.number,
             style: const TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w400,
