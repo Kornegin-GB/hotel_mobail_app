@@ -1,0 +1,39 @@
+name: hotel_mobile_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dio: ^5.4.0
+  intl: ^0.19.0
+  flutter_carousel_widget: ^2.2.0
+  flutter_svg: ^2.0.9
+  mask_text_input_formatter: ^2.8.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/image_page/
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: fonts/SF_Pro_Display/SF-Pro-Display-Regular.otf
+        - asset: fonts/SF_Pro_Display/SF-Pro-Display-Medium.otf
+        - asset: fonts/SF_Pro_Display/SF-Pro-Display-Semibold.otf
+        - asset: fonts/SF_Pro_Display/SF-Pro-Display-Bold.otf
