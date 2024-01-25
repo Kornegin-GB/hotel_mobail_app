@@ -9,6 +9,7 @@
 .history
 .svn/
 migrate_working_dir/
+Job_app.webm
 
 # IntelliJ related
 *.iml

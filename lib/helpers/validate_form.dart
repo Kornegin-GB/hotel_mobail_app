@@ -1,9 +1,7 @@
-import 'package:flutter/cupertino.dart';
+
 
 class ValidateForm {
   String? inputPhone(String value) {
-    debugPrint(value);
-    debugPrint(value.toString());
     if (value.isEmpty) {
       return "Поле телефон не должно быть пустым";
     }
